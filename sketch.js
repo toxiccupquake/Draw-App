@@ -199,8 +199,9 @@ function drawThickLine(k, lx, ly, px, py) {
 function keyPressed() {
   if (key === '=' || key === '+') { //larger
     bBrushS += 2;
-  } else if (key === '-') //smaller
+  } else if (key === '-') {//smaller
     bBrushS -= 2;
+}
       if (bBrushS < 1) bBrushS = 1.3 //minimum size
 }
 
